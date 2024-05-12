@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dino Stojkoski</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>@import url(https://fonts.googleapis.com/css2?family=NTR&display=swap);</style>
+    <script src="https://kit.fontawesome.com/997582aa08.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="500">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#myPage"><i class="fa-solid fa-terminal"></i>Dino Stojkoski</a>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav ">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa-regular fa-envelope fa-xl"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-github fa-xl"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook fa-xl"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram fa-xl"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="container-fluid bg-1 text-center" id="home">
+        <h1 class="margin title">Hi, my name is <span class="title-name">Dino</span>!</h1>
+        <h3 class="profession">Web Developer</h3>
+    </div>
+
+    <!-- Second Container -->
+    <div class="container bg-2 text-center" id="about">
+        <h3 class="margin">Some Stuff About Me</h3>
+        <p class="about-text col-sm-12  text-justify">
+            As a driven and ambitious software engineering student, I am currently immersed in the pursuit of a
+            "Bachelor of Science in Software Engineering and Information Technologies". With a keen eye for detail
+            and an insatiable appetite for learning, I am equipped to tackle the challenges of modern web development.
+            My academic pursuits have provided me with a solid theoretical framework, while my practical experiences have
+            taught me how to solve problems effectively in real-world situations. Through hands-on experience, mentorship,
+            and exposure to diverse perspectives, I am confident that I can cultivate the skills necessary to excel as a
+            front-end developer and make a meaningful impact in the ever-evolving landscape of technology. I am enthusiastic
+            about embracing new challenges, collaborating with like-minded individuals, and contributing meaningfully
+            to impactful projects.
+        </p>
+    </div>
+
+    <!-- Third Container (Grid) -->
+    <div class="container-fluid text-center bg-3" id="portfolio">
+        <h3>Portfolio</h3>
+        <h4>Some projects I have created</h4>
+        <div class="row text-center">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="img/jasna-idnina.png" alt="Paris">
+                    <p><strong>Association Jasna Idnina</strong></p>
+                    <p>An Erasmus+ Organization For Youth Projects</p>
+                    <a href="https://jasnaidnina.netlify.app/"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="img/lollipop.png" alt="New York">
+                    <p><strong>Lollipop Clothing Store</strong></p>
+                    <p>A Premium Clothing Store For Women</p>
+                    <a href="https://lollipop-store.netlify.app"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="img/moe-pazarce.png" alt="San Francisco">
+                    <p><strong>Moe Pazarce</strong></p>
+                    <p>A Local Produce Markets</p>
+                    <a href="https://moepazarce.netlify.app"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="container bg-4" id="skills">
+        <h3 class="text-center">Some of my Skills</h3><br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000" data-bs-touch="true">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <div class="carousel-caption">
+                        <i class="fa-brands fa-html5"></i>
+                        <h4>HTML</h4>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="carousel-caption">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h4>CSS</h4>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="carousel-caption">
+                        <i class="fa-brands fa-js text-center"></i>
+                        <h4>JavaScript</h4>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="carousel-caption">
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <h4>Bootstrap</h4>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="carousel-caption">
+                        <i class="fa-brands fa-php"></i>
+                        <h4>PHP</h4>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="carousel-caption">
+                        <i class="fa-brands fa-java"></i>
+                        <h4>Java</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="container bg-4" id="contact">
+        <h3 class="text-center">Contact</h3>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Contact me and I'll get back to you within 24 hours.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Prilep, Macedonia</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +38972645841</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> stojkoskidino@gmail.com</p>
+            </div>
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <label for="name"></label><input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <label for="email"></label><input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <label for="comments"></label><textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+
+    <footer class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Website made by Dino.<a href="" title="Dino"></a></p>
+    </footer>
+
+    <!-- Add Bootstrap JS (make sure jQuery and Popper.js are also included) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                // Check if the clicked anchor is part of the carousel
+                if (!anchor.closest('#myCarousel')) {
+                    e.preventDefault();
+
+                    const target = document.querySelector(this.getAttribute('href'));
+                    const scrollOffset = 100;
+
+                    window.scrollTo({
+                        top: target.offsetTop - scrollOffset,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+:root {
+    --main-white: #f0f0f0;
+    --light-blue: #3C5B6F;
+    --dark-blue: #153448;
+    --main-gray: #121212;
+}
+
+* {
+   /*font-family: NTR, sans-serif;*/
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+body {
+    background-color: var(--main-gray);
+}
+
+h3 {
+    font-size: 44px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.navbar {
+    background-color: var(--dark-blue);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: var(--main-gray);
+    border-radius: 5px;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    font-size: 16px;
+    transition: background-color 0.3s ease-out;
+    border-radius: 5px;
+    color: #fff !important;
+    margin-left: 4px !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: var(--main-gray) !important;
+    background-color: #fff !important;
+    margin-left: 4px !important;
+}
+
+.navbar-right li i {
+    font-size: 20px;
+    transition: color 0.3s ease-out;
+    color: #fff !important;
+}
+
+.navbar-right li a:hover {
+    background-color: transparent !important;
+}
+
+.navbar-right li i:hover {
+    color: var(--main-gray) !important;
+}
+
+a.navbar-brand {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+/* HOME SECTION */
+
+.bg-1 {
+    background-color: var(--main-gray);
+    padding: 300px 0 210px 0;
+}
+
+@media screen and (min-width: 1600px) {
+    .bg-1 {
+        padding: 350px 0 320px 0;
+    }
+}
+
+.bg-1 h3 {
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 64px;
+}
+
+.title-name {
+    font-size: 64px;
+}
+
+@media screen and (max-width: 767px) {
+    .title {
+        font-size: 82px;
+    }
+
+}
+
+.profession {
+    font-size: 44px;
+    color: var(--light-blue);
+}
+
+/* ABOUT ME SECTION */
+
+.bg-2 {
+    background-color: var(--main-gray);
+    padding-bottom: 150px;
+}
+
+
+.bg-2 h3 {
+    margin-bottom: 50px;
+}
+
+.about-text {
+    font-size: 24px;
+    padding: 0 15px 0 15px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .about-text {
+        font-size: 20px;
+    }
+}
+
+/* PROJECTS SECTION */
+
+.bg-3 {
+    background-color: var(--main-gray);
+    padding-bottom: 150px;
+}
+
+
+.bg-3 h4 {
+    margin-bottom: 50px;
+}
+
+.thumbnail {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+i.fa-link {
+    transition: color 0.3s ease-out;
+}
+
+i.fa-link:hover {
+    color: var(--light-blue);
+}
+
+/* SKILLS SECTION */
+
+div.item {
+    height: 250px;
+    width: 100%;
+}
+
+div.item i {
+    font-size: 100px;
+}
+
+/* CONTACT SECTION */
+
+.bg-4 {
+    background-color: var(--main-gray);
+    padding-bottom: 150px;
+}
+
+.bg-4 h3 {
+    margin-bottom: 25px;
+}
+
+div.col-sm-5 {
+    padding-top: 25px;
+}
+
